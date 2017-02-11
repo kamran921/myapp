@@ -18,7 +18,7 @@
         <asp:Panel ID="Panel1" runat="server" Height="5.8em" HorizontalAlign="Center" Width="100%" Direction="RightToLeft">
             <asp:Label ID="Label1" runat="server" Text="MUHAMMAD KAMRAN ANSARI" Font-Names="Exo" Font-Size="2.2em" ForeColor="White" Width="100%" BackColor="Black"></asp:Label>
         </asp:Panel>            
-        <asp:Image ID="Image2" runat="server" ImageAlign="AbsBottom" ImageUrl="~/eea.jpg" Width="100%" />
+        <asp:Image ID="Image2" runat="server" ImageAlign="AbsBottom" ImageUrl="~/dadd.jpg" Width="100%" />
     </form>
 </body>
 </html>
