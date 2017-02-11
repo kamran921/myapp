@@ -1,0 +1,13 @@
+﻿font-family: 'Exo', sans-serif;
+
+body {
+    animation: mm 2s ease;
+    @keyframes mm {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width:100%;
+        }
+    }
+}
