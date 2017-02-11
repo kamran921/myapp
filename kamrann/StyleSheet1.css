@@ -1,5 +1,10 @@
 ﻿font-family: 'Exo', sans-serif;
-
+.fat {
+    word-wrap:break-word;
+}
+.hei {
+    height:initial;
+}
 body {
     animation: mm 2s ease;
     @keyframes mm {
