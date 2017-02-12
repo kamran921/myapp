@@ -16,9 +16,9 @@
 <body style="height: 814px; margin: 0;">
     <form id="form1" runat="server" class="auto-style1">
         <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center" Width="100%" Direction="RightToLeft" CssClass="hei">
-            <asp:Label ID="Label1" runat="server" Text="MUHAMMAD KAMRAN ANSARI" Font-Names="Exo" Font-Size="2.2em" ForeColor="White" Width="100%" BackColor="Black" CssClass="fat" EnableViewState="False" Height="100%"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="MUHAMMAD KAMRAN ANSARI" Font-Names="Exo" Font-Size="2.2em" ForeColor="White" Width="100%" BackColor="Black" Height="100%" CssClass="fat" EnableViewState="True"></asp:Label>
         </asp:Panel>            
-        <asp:Image ID="Image2" runat="server" ImageAlign="Top" ImageUrl="~/dadd.jpg" Width="100%" />
+        <asp:Image ID="Image2" runat="server" ImageAlign="Top" ImageUrl="~/dadd.png" Width="100%" CssClass="imagee" />
     </form>
 </body>
 </html>

@@ -1,18 +1,37 @@
 ﻿font-family: 'Exo', sans-serif;
 .fat {
     word-wrap:break-word;
+    
 }
+
 .hei {
     height:initial;
+    animation: hh 3s ease;
+    opacity: 1;
 }
-body {
-    animation: mm 2s ease;
-    @keyframes mm {
+body{
+    background-color: black;
+}
+.imagee {
+    animation: mm 1.4s cubic-bezier(.8, .01, .35, .97);
+    margin-left: 0%;
+    margin-top: 0%;
+    opacity: 1;
+}
+@keyframes hh {
+    0% {opacity:0;} 100% {opacity:1;}
+}
+@keyframes mm {
         0% {
-            width: 0%;
+            margin-top: -40%;
+            margin-left:-200%;
+            opacity: 0;
+            width: 400%;
         }
         100% {
+            margin-top: 0%;
+            margin-left:0%;
+            opacity: 1;
             width:100%;
         }
     }
-}

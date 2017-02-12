@@ -175,6 +175,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="dadd.jpg" />
+    <Content Include="dadd.png" />
     <Content Include="Default.aspx" />
     <Content Include="eea.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
