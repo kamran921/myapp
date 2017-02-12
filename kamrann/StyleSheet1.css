@@ -4,7 +4,7 @@
     
 }
 
-.hei {
+.loaded .hei {
     height:initial;
     animation: hh 3s ease;
     opacity: 1;
@@ -12,7 +12,7 @@
 body{
     background-color: black;
 }
-.imagee {
+.loaded img {
     animation: mm 1.4s cubic-bezier(.8, .01, .35, .97);
     margin-left: 0%;
     margin-top: 0%;

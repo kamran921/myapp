@@ -7,6 +7,10 @@
     <title>Kamran Ansari</title>
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet"/>
     <link type="text/css" rel="stylesheet" href="/StyleSheet1.css"/>
+    <script type='text/javascript'>window.onload = function () {
+    document.body.className += "loaded";
+}
+</script>
     <style type="text/css">
         .auto-style1 {
             height: 811px;
