@@ -9,8 +9,12 @@
     animation: hh 3s ease;
     opacity: 1;
 }
+.loaded {
+    opacity: 1;
+}
 body{
     background-color: black;
+    opacity: 0;
 }
 .loaded img {
     animation: mm 1.4s cubic-bezier(.8, .01, .35, .97);
