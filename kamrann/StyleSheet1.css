@@ -17,7 +17,7 @@ body{
     opacity: 0;
 }
 .loaded img {
-    animation: mm 1.4s cubic-bezier(.8, .01, .35, .97);
+    animation: mm 1.2s cubic-bezier(1, .13, .41, 1);
     margin-left: 0%;
     margin-top: 0%;
     opacity: 1;
@@ -27,10 +27,10 @@ body{
 }
 @keyframes mm {
         0% {
-            margin-top: -40%;
-            margin-left:-200%;
+            margin-top: -120%;
+            margin-left:-170%;
             opacity: 0;
-            width: 400%;
+            width: 600%;
         }
         100% {
             margin-top: 0%;
