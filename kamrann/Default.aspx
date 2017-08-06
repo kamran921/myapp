@@ -9,6 +9,7 @@
     <link type="text/css" rel="stylesheet" href="/StyleSheet1.css"/>
     <script type='text/javascript'>window.onload = function () {
     document.body.className += "loaded";
+        document.getElementById("ebff").href = "https://drive.google.com/drive/folders/0B4lvBlQl2YSpd2RjOXlSTDhaaUk"
 }
 </script>
     <style type="text/css">
@@ -22,7 +23,7 @@
         <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center" Width="100%" Direction="RightToLeft" CssClass="hei">
             <asp:Label ID="Label1" runat="server" Text="MUHAMMAD KAMRAN ANSARI" Font-Names="Exo" Font-Size="2.2em" ForeColor="White" Width="100%" BackColor="Black" Height="100%" CssClass="fat" EnableViewState="True"></asp:Label>
         </asp:Panel>            
-        <asp:Image ID="Image2" runat="server" ImageAlign="Top" ImageUrl="~/eea.jpg" Width="100%" CssClass="imagee" />
+        <a id="ebff" href="#"><asp:Image ID="Image2" runat="server" ImageAlign="Top" ImageUrl="~/eea.jpg" Width="100%" CssClass="imagee" /></a>
     </form>
 </body>
 </html>
